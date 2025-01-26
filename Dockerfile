@@ -1,5 +1,5 @@
 # Use the official OpenJDK image
-FROM openjdk:24-ea-21-bullseye
+FROM openjdk:21-jdk
 
 # Copy the built jar files into the container
 ADD /target/dist/lib /app/lib
